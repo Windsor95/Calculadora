@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-top: 46px;
+  background: rgb(27, 113, 116);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+.bg-caclc {
+  width: 250px;
+  height: 350px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px 0px #585757;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: right;
+  font-size: 20pt;
+  width: 100%;
+  max-width: 192px;
+  height: 30px;
+  overflow: hidden;
+}
+
+button {
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(22, 20, 20);
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 2px 3px 0px #686767, inset 0px -2px 3px 0px #000000;
+}
+button:hover {
+  opacity: 50%;
+}
+
+.luz {
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  left: 150px;
+  width: 30px;
+  height: 50px;
+  background-color: white;
+  transform: skew(-20deg);
+  opacity: 2%;
+  filter: blur(1.5px);
+}
+
+.luz2 {
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  left: 90px;
+  width: 20px;
+  height: 50px;
+  background-color: white;
+  transform: skew(-20deg);
+  opacity: 2%;
+  filter: blur(1.5px);
+}
+.luz3 {
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  left: 15px;
+  width: 45px;
+  height: 50px;
+  background-color: white;
+  transform: skew(-20deg);
+  opacity: 2%;
+  filter: blur(1.5px);
+}
+
+.container {
+  position: relative;
+  margin-bottom: 10px;
+  border: 2px solid rgb(26, 25, 25);
+  width: 202px;
+  height: 40px;
+  background-color: rgb(53, 44, 44);
+  padding-top: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  filter: blur(0.5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+  display: flex;
+  justify-content: flex-end;
+}
